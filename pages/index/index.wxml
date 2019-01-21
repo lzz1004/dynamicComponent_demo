@@ -1,0 +1,10 @@
+
+<!-- <view wx:for="{{values}}">
+  <block wx:if="{{item.value}}">
+    <parent generic:selectable="{{item.key}}" values="{{values}}"></parent>
+    {{item.key}}
+  </block>
+</view> -->
+
+<parent generic:selectable="child2" values="{{values}}"></parent>
+
